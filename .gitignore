@@ -89,23 +89,6 @@ pear/
 php.ini.sample
 pkginfo/
 RELEASE_NOTES.txt
-shell/abstract.php
-shell/compiler.php
-shell/indexer.php
-shell/log.php
-skin/adminhtml/default/default/
-skin/adminhtml/default/enterprise
-skin/frontend/base/
-skin/frontend/rwd/
-skin/frontend/default/blank/
-skin/frontend/default/blue/
-skin/frontend/default/default/
-skin/frontend/default/french/
-skin/frontend/default/german/
-skin/frontend/default/iphone/
-skin/frontend/default/modern/
-skin/frontend/enterprise
-skin/install/
 var/
 media/
 
