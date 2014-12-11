@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Alfresco_Location>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Alfresco_Location>
+    </modules>
+</config>
