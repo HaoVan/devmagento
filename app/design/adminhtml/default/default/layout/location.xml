@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<layout version="1.4.0">
+
+    <location_adminhtml_location_index>
+        <reference name="content">
+            <block type="location/adminhtml_location" name="location"/>
+        </reference>
+    </location_adminhtml_location_index>
+    <location_adminhtml_location_edit>
+        <reference name="head">
+
+            <!--Add Style-->
+            <action method="addCss"><stylesheet>css_map.css</stylesheet></action>
+            <action method="addJs"><script>varien/jquery.min.js</script></action>
+
+            <action method="addItem"><type>js</type><name>https://maps.googleapis.com/maps/api/js?key=AIzaSyB_uvPZgYcFmeefFrgjz_Wh217uxT2ojvY&amp;sensor=false</name><params/></action>
+            <action method="addJs"><script>location/location/map.js</script></action>
+
+
+        </reference>
+    </location_adminhtml_location_edit>
+</layout>
